@@ -1,1 +1,0 @@
-# caffe-simple-with-hunter
