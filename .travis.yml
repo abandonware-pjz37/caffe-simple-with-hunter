@@ -36,21 +36,6 @@ matrix:
     - os: linux
       env: TOOLCHAIN=gcc-4-8 CONFIG=Debug
 
-    - os: linux
-      env: TOOLCHAIN=clang-libstdcxx CONFIG=Release
-    - os: linux
-      env: TOOLCHAIN=clang-libstdcxx CONFIG=Debug
-
-    - os: osx
-      env: TOOLCHAIN=libcxx CONFIG=Release
-    - os: osx
-      env: TOOLCHAIN=libcxx CONFIG=Debug
-
-    - os: osx
-      env: TOOLCHAIN=osx-10-9 CONFIG=Release
-    - os: osx
-      env: TOOLCHAIN=osx-10-9 CONFIG=Debug
-
 install:
   # Info about OS
   - uname -a
