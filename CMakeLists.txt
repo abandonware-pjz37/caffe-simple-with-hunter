@@ -9,7 +9,7 @@ HunterGate(
 project(caffe_simple_with_hunter)
 
 hunter_add_package(caffe)
-find_package(caffe CONFIG REQUIRED)
+find_package(Caffe CONFIG REQUIRED)
 
 add_executable(foo foo.cpp)
 target_link_libraries(foo caffe)
